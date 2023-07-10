@@ -8,7 +8,7 @@ header{
     display:flex;
     align-items:center;
     justify-content:space-between;
-    background-color: rgb(76, 76, 161);
+    background-color: rgb(96, 96, 160);
     background-size:auto;
 }
 .section1{
@@ -55,46 +55,102 @@ header .section1 button{
     font-size:medium;
     color:rgba(39, 39, 39, 0.60);
 }
-.flowersection .flower-image{
+.flowersection >.flower-image{
     display:flex;
     justify-content:space-around;
     align-items:center;
 }
-/* .flowersection .flower-image figure{
-    height:500px;
+.flowersection .flower-image figure{
+    /* height:500px;
     width:350px;
-    background-size: 538px 464px;
-} */
+    background-size: 538px 464px; */
+    text-decoration: underline;
+}
 .flowersection .flower-image figure h5{
    text-align:center;
 }
 .flowersection .flower-image figure .yellow{
     background-color:aqua;
     border-radius:300px 300px 0px 0px;
-    /* height:500px;
-    width:350px; */
+    height:500px;
+    width:400px;
     background-size:auto;
     padding: 20px 20px 0 20px;
 }
 
 .flowersection .flower-image figure .red{
-    /* height:500px;
-    width:350px;  */
+    height:500px;
+    width:400px; 
     background-color:blueviolet;
     border-radius:300px 300px 0px 0px;
     background-size:auto;
-    padding: 20px 20px 65px 20px;
+    padding: 20px 20px 0 20px;
     
 }
 .flowersection .flower-image figure .pink{
-    /* height:500px;
-    width:350px;  */
+    height:500px;
+    width:400px; 
     background-color:gold;
     border-radius:300px 300px 0px 0px;
     background-size:auto;
     padding: 20px 20px 0 20px;
 
 }
+
 .offer{
-    display:flex;
+   display:flex;
+   align-items:center;
+   justify-content:space-between;
+   background-color:rgb(151, 125, 175)
 }
+.offer .offer-description{
+    text-align:center;
+    padding-left:423px;
+}
+.offer .offer-description h3{
+    font-size:40px;
+    padding-bottom:15px;
+}
+.offer .offer-description h3 span{
+    color:#ac1414
+}
+.offer .offer-description p{
+    color:black;
+    padding-bottom:15px;
+}
+.offer .offer-description button{
+    height:44px;
+    width:135px;
+    border:none;
+    border-radius:20px;
+    font-size:medium;
+    font-weight:bold;
+    background-color:rgb(209, 13, 13);
+    color:white;
+}
+.offer .offer-image{
+    /* height: 100px;
+    width:318px; */
+    padding:100px 300px 100px 219px;
+}
+.instagram-photos {
+   text-align:center;
+}
+.instagram-photos h3{
+    padding-top:120px;
+    font-size: 30px;
+}
+.instagram-photos p{
+    padding-top:20px;
+    color:rgba(39, 39, 39, 0.60);
+    font-size:medium;
+}
+.instagram-photos .image-collection{
+    display:flex;
+    padding:48px 240px;
+    gap:24px;
+    height:400px;
+    width:200px;
+}
+
+
