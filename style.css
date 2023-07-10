@@ -7,20 +7,19 @@ body{
 header{
     display:flex;
     align-items:center;
-    justify-content:space-around;
+    justify-content:space-between;
     background-color: rgb(76, 76, 161);
     background-size:auto;
 }
 .section1{
     
-    padding:140px 97px 147px 140px;
+    padding:140px 0px 130px 240px;
     
 }
 header img{
     height:800px;
     width:635px;
-    padding-top:40px;
-   
+    padding:50px 97px 0px 240px;
 }
 header  .section1 h1{
     font-size: 50px;
@@ -42,4 +41,60 @@ header .section1 button{
     border-radius:10px;
     font-size:medium;
     font-weight: 900;
+}
+.flowersection{
+    padding:178px 240px 128px 240px;
+}
+.flowersection h2{
+    text-align:center;
+    font-size:25px;
+}
+.flowersection p{
+    text-align:center;
+    padding:20px 350px 40px 350px;
+    font-size:medium;
+    color:rgba(39, 39, 39, 0.60);
+}
+.flowersection .flower-image{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+/* .flowersection .flower-image figure{
+    height:500px;
+    width:350px;
+    background-size: 538px 464px;
+} */
+.flowersection .flower-image figure h5{
+   text-align:center;
+}
+.flowersection .flower-image figure .yellow{
+    background-color:aqua;
+    border-radius:300px 300px 0px 0px;
+    /* height:500px;
+    width:350px; */
+    background-size:auto;
+    padding: 20px 20px 0 20px;
+}
+
+.flowersection .flower-image figure .red{
+    /* height:500px;
+    width:350px;  */
+    background-color:blueviolet;
+    border-radius:300px 300px 0px 0px;
+    background-size:auto;
+    padding: 20px 20px 65px 20px;
+    
+}
+.flowersection .flower-image figure .pink{
+    /* height:500px;
+    width:350px;  */
+    background-color:gold;
+    border-radius:300px 300px 0px 0px;
+    background-size:auto;
+    padding: 20px 20px 0 20px;
+
+}
+.offer{
+    display:flex;
 }
