@@ -195,3 +195,25 @@ header .section1 button{
     color:white;
     font-size:15px;
 }
+footer{
+    text-align:center;
+    background-color:rgb(0, 0, 0);
+    height:400px;
+    color:white;
+}
+footer h2{
+    font-size:40px;
+    padding-top:128px;
+    color:rgb(221, 22, 204);
+}
+footer h2 span{
+    color:#035d6d;
+}
+footer p{
+    padding-top:10px;
+    font-size:13px;;
+}
+footer h5{
+    padding-top:25px;
+    font-weight:200;
+}
