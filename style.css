@@ -152,5 +152,46 @@ header .section1 button{
     height:400px;
     width:200px;
 }
+.deals{
+    text-align:center;
+    margin:128px 240px;
+    background-image: url("Rectangle\ 9.png");
+   
+}
+.deals h2{
+    font-size:35px;
+    padding:120px 0px 10px 0px;
+}
+.deals p{
+    color:rgba(39, 39, 39, 0.60);
+    font-size:medium;
+    padding-bottom:15px;
+}
+.deals .input{
+    padding:0px 0px 100px 0px;
+    
+}
 
 
+.deals .email{
+    height:45px;
+    width:500px;
+    border:none;
+    background-color:white;  
+}
+.deals .email[placeholder="Enter your email here...."]{
+    padding:10px 0px 10px 22px;
+}
+
+.deals .subscribe{
+    height:65px;
+    width:120px;
+    border:none;
+    border-radius:10px;
+    background-color: #E55473;
+    margin-left:16px;
+}
+.deals .subscribe[value="Subscribe"]{
+    color:white;
+    font-size:15px;
+}
