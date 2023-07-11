@@ -165,7 +165,7 @@ header .section1 button{
 .deals p{
     color:rgba(39, 39, 39, 0.60);
     font-size:medium;
-    padding-bottom:15px;
+    padding-bottom:35px;
 }
 .deals .input{
     padding:0px 0px 100px 0px;
@@ -177,7 +177,8 @@ header .section1 button{
     height:45px;
     width:500px;
     border:none;
-    background-color:white;  
+    background-color:white;
+    padding-bottom:30px;  
 }
 .deals .email[placeholder="Enter your email here...."]{
     padding:10px 0px 10px 22px;
@@ -211,9 +212,86 @@ footer h2 span{
 }
 footer p{
     padding-top:10px;
-    font-size:13px;;
+    font-size:14px;;
 }
 footer h5{
     padding-top:25px;
     font-weight:200;
+}
+.our-plan{
+    margin:120px 240px;
+}
+
+.our-plan .plan-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.our-plan h6{
+    font-weight:400;
+    font-size:15px;
+    text-align:center;
+    color:rgb(21, 163, 45);
+}
+.our-plan h1{
+    font-size:40px;
+    text-align:center;
+    color:#E55473;
+    padding:20px 0;
+}
+.our-plan .plan-container td ,th{
+    border:1px solid rgba(201, 195, 195, 0.6);
+
+}
+.our-plan .plan-container table{
+    border-collapse:collapse;
+    height: 500px;
+    width:350px;
+    text-align:center;
+}
+.our-plan .plan-container table thead{
+    background-color: rgb(46, 45, 45);
+}
+.our-plan .plan-container table thead th{
+   text-align:center;
+   font-size: 20px;
+   color:white;
+   padding:15px 0px;
+   font-weight:600;
+}
+.our-plan .plan-container table tbody{
+    text-align:center;
+    
+}
+.our-plan .plan-container table tbody tr .price{
+    font-size:25px;
+    font-weight:bolder;
+}
+.our-plan .plan-container table tbody tr .price span{
+    font-size:15px;
+    font-weight:300;
+    color:rgb(10, 145, 71);
+    font-weight:500;
+    
+}
+.our-plan .plan-container table tbody tr td{
+    font-size:15px;
+    font-weight:300;
+}
+.our-plan .plan-container table tfoot{
+    height:120px;
+}
+.our-plan .plan-container table tfoot td button{
+    /* display:flex;
+    align-items:center;
+    justify-content:center; */
+   text-align:center;
+   width:150px;
+   height:50px;
+   border:none;
+   font-weight:800;
+   font-size:15px;
+   background-color: rgb(21, 143, 27);
+   color:white;
+   border-radius:10px;
 }
